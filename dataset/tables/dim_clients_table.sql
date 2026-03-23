@@ -27,5 +27,15 @@ INSERT INTO Dim_Clients VALUES
 (17, 'Stockholm Star', 'Stockholm', 'Stockholm County', 'Sweden', 'Europe'),
 (18, 'Zurich Zenith', 'Zurich', 'Canton of Zurich', 'Switzerland', 'Europe'),
 (19, 'Oslo Ocean', 'Oslo', 'Oslo County', 'Norway', 'Europe'),
-(20, 'Dublin Draft', 'Dublin', 'Leinster', 'Ireland', 'Europe')
+(20, 'Dublin Draft', 'Dublin', 'Leinster', 'Ireland', 'Europe'),
+(21, 'Tokyo Tek', 'Tokyo', 'Tokyo Metropolis', 'Japan', 'Asia'),
+(22, 'Seoul Soul', 'Seoul', 'Seoul Capital Area', 'South Korea', 'Asia'),
+(23, 'Singapore Signal', 'Singapore', 'Central Region', 'Singapore', 'Asia'),
+(24, 'Beijing Base', 'Beijing', 'Beijing Municipality', 'China', 'Asia'),
+(25, 'Mumbai Mind', 'Mumbai', 'Maharashtra', 'India', 'Asia'),
+(26, 'Bangkok Beam', 'Bangkok', 'Bangkok Metropolis', 'Thailand', 'Asia'),
+(27, 'Dubai Dream', 'Dubai', 'Emirate of Dubai', 'UAE', 'Asia'),
+(28, 'Hanoi History', 'Hanoi', 'Hanoi Municipality', 'Vietnam', 'Asia'),
+(29, 'Jakarta Jolt', 'Jakarta', 'Jakarta Special Region', 'Indonesia', 'Asia'),
+(30, 'Manila Move', 'Manila', 'Metro Manila', 'Philippines', 'Asia'),
 ;
