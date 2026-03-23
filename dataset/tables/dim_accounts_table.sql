@@ -45,5 +45,15 @@ INSERT INTO Dim_Accounts VALUES
 (37, 'BI Reporting', 'Standard', 'Automated executive reports'),
 (38, 'Fraud Detector', 'Premium', 'Transactional risk assessment'),
 (39, 'Energy Monitor', 'Basic', 'Green data center metrics'),
-(40, 'Support Plus', 'Standard', '24/7 technical assistance')
+(40, 'Support Plus', 'Standard', '24/7 technical assistance'),
+(41, 'Audit Log', 'Basic', 'User activity tracking'),
+(42, 'Graph Analytics', 'Premium', 'Relationship mapping tools'),
+(43, 'Form Builder', 'Basic', 'Custom data collection tools'),
+(44, 'Voice Gateway', 'Standard', 'VoIP and SIP trunking'),
+(45, 'Cache Master', 'Standard', 'In-memory data caching'),
+(46, 'Predictive Lead', 'Premium', 'Sales forecasting AI'),
+(47, 'Inventory Sync', 'Standard', 'Real-time stock management'),
+(48, 'File Sync', 'Basic', 'Cross-device file sharing'),
+(49, 'Auth Token', 'Standard', 'OAuth and JWT management'),
+(50, 'Privacy Shield', 'Premium', 'GDPR/POPIA data masking')
 ;
