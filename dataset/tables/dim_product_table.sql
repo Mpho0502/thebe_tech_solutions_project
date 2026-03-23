@@ -35,5 +35,15 @@ INSERT INTO Dim_Product VALUES
 (27, 'DataMeld', 'Analytics', 'ETL Tool'),
 (28, 'CloudShell', 'Infrastructure', 'Virtual Machine'),
 (29, 'AppStack', 'Development', 'PaaS'),
-(30, 'KubeManage', 'Infrastructure', 'Orchestration')
+(30, 'KubeManage', 'Infrastructure', 'Orchestration'),
+(31, 'VisionAI', 'Analytics', 'Computer Vision'),
+(32, 'SpeakSoft', 'Analytics', 'NLP'),
+(33, 'PatchBot', 'Security', 'Vulnerability'),
+(34, 'MailFilter', 'Security', 'Anti-Spam'),
+(35, 'DockMaster', 'Development', 'Containers'),
+(36, 'SiteScale', 'Infrastructure', 'Load Balancer'),
+(37, 'RouteSmart', 'Infrastructure', 'DNS'),
+(38, 'QueryLens', 'Analytics', 'Data Discovery'),
+(39, 'PolicyPro', 'Security', 'Compliance'),
+(40, 'AuditTrail', 'Security', 'Governance')
 ;
