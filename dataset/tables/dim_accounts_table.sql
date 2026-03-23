@@ -25,5 +25,15 @@ INSERT INTO Dim_Accounts VALUES
 (17, 'Edge Compute', 'Standard', 'Low-latency processing nodes'),
 (18, 'Data Lakehouse', 'Premium', 'Unified storage and analytics'),
 (19, 'VPN Plus', 'Standard', 'Secure remote access tunnels'),
-(20, 'API Gateway', 'Premium', 'API management and security')
+(20, 'API Gateway', 'Premium', 'API management and security'),
+(21, 'Threat Hunter', 'Premium', 'Active malware scanning'),
+(22, 'CDN Nitro', 'Standard', 'Content delivery acceleration'),
+(23, 'Log Central', 'Basic', 'Centralized system logging'),
+(24, 'Storage Block', 'Basic', 'Standard block storage'),
+(25, 'Storage Object', 'Standard', 'S3 compatible object storage'),
+(26, 'Disaster Recovery', 'Premium', 'Geo-redundant failover'),
+(27, 'Web Firewall', 'Standard', 'WAF and DDoS protection'),
+(28, 'Social Listener', 'Basic', 'Brand sentiment tracking'),
+(29, 'Blockchain Ledger', 'Premium', 'Private distributed ledger'),
+(30, 'Virtual Desktop', 'Standard', 'Remote workspace hosting')
 ;
