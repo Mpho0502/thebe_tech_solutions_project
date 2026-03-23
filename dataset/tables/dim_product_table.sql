@@ -25,5 +25,15 @@ INSERT INTO Dim_Product VALUES
 (17, 'EdgePoint', 'Infrastructure', 'Edge Computing'),
 (18, 'VaultSafe', 'Security', 'Encryption'),
 (19, 'StreamSync', 'Development', 'API Management'),
-(20, 'GraphLogic', 'Analytics', 'Graph Database')
+(20, 'GraphLogic', 'Analytics', 'Graph Database'),
+(21, 'ThreatSense', 'Security', 'SIEM'),
+(22, 'CacheFast', 'Infrastructure', 'Memory Cache'),
+(23, 'LogMaster', 'Infrastructure', 'Logging'),
+(24, 'BackupGenie', 'Infrastructure', 'Recovery'),
+(25, 'WebFence', 'Security', 'WAF'),
+(26, 'BotBlock', 'Security', 'Anti-Bot'),
+(27, 'DataMeld', 'Analytics', 'ETL Tool'),
+(28, 'CloudShell', 'Infrastructure', 'Virtual Machine'),
+(29, 'AppStack', 'Development', 'PaaS'),
+(30, 'KubeManage', 'Infrastructure', 'Orchestration')
 ;
