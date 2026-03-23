@@ -45,5 +45,15 @@ INSERT INTO Dim_Product VALUES
 (37, 'RouteSmart', 'Infrastructure', 'DNS'),
 (38, 'QueryLens', 'Analytics', 'Data Discovery'),
 (39, 'PolicyPro', 'Security', 'Compliance'),
-(40, 'AuditTrail', 'Security', 'Governance')
+(40, 'AuditTrail', 'Security', 'Governance'),
+(41, 'FileVault', 'Infrastructure', 'NAS'),
+(42, 'SyncDrive', 'Collaboration', 'File Share'),
+(43, 'TeamTalk', 'Collaboration', 'Messaging'),
+(44, 'MeetVideo', 'Collaboration', 'Conferencing'),
+(45, 'TaskTrack', 'Collaboration', 'Project Management'),
+(46, 'DocuSigner', 'Collaboration', 'E-Signature'),
+(47, 'FlowChart', 'Collaboration', 'Diagramming'),
+(48, 'WikiBase', 'Collaboration', 'Knowledge Base'),
+(49, 'SupportDesk', 'Collaboration', 'Ticketing'),
+(50, 'SurveyGen', 'Analytics', 'Feedback')
 ;
