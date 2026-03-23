@@ -1,4 +1,5 @@
 # thebe_tech_solutions_project
+
 Thebe Tech Solutions
 Global Operations Center
 “Securing Your Future, Today.”
@@ -43,7 +44,7 @@ Thebe Tech Solutions operates on a truly global scale. Our Dim_Clients framework
 Presence: Active operations across multiple Continents and Countries.
 Localization: Tailored service delivery at the Province and City levels, ensuring that our technical support is never out of reach.
 
-3. Core Service Pillars
+Core Service Pillars
 Based on our specialized product architecture, our services are categorized into three primary divisions:
 I. Comprehensive Cybersecurity
 We provide end-to-end security protocols designed to protect against evolving global threats. From threat intelligence to infrastructure hardening, our solutions ensure your data remains your most secure asset.
