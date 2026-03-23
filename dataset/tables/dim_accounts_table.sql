@@ -35,5 +35,15 @@ INSERT INTO Dim_Accounts VALUES
 (27, 'Web Firewall', 'Standard', 'WAF and DDoS protection'),
 (28, 'Social Listener', 'Basic', 'Brand sentiment tracking'),
 (29, 'Blockchain Ledger', 'Premium', 'Private distributed ledger'),
-(30, 'Virtual Desktop', 'Standard', 'Remote workspace hosting')
+(30, 'Virtual Desktop', 'Standard', 'Remote workspace hosting'),
+(31, 'App Container', 'Premium', 'Managed Kubernetes clusters'),
+(32, 'Search Index', 'Standard', 'Custom site search engine'),
+(33, 'Media Stream', 'Premium', 'Video transcoding and delivery'),
+(34, 'Patch Manager', 'Basic', 'Automated software updates'),
+(35, 'Policy Engine', 'Standard', 'Access control rules'),
+(36, 'Customer Portal', 'Basic', 'Client self-service dashboard'),
+(37, 'BI Reporting', 'Standard', 'Automated executive reports'),
+(38, 'Fraud Detector', 'Premium', 'Transactional risk assessment'),
+(39, 'Energy Monitor', 'Basic', 'Green data center metrics'),
+(40, 'Support Plus', 'Standard', '24/7 technical assistance')
 ;
