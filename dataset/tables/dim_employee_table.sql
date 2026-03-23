@@ -46,5 +46,15 @@ INSERT INTO Dim_Emloyee VALUES
 (37, 'Michael', 'Thomas', 'michael.thomas37@thebe.com', 'Operations Lead'),
 (38, 'Richard', 'Miller', 'richard.miller38@thebe.com', 'Sales Manager'),
 (39, 'Robert', 'Brown', 'robert.brown39@thebe.com', 'Marketing Coordinator'),
-(40, 'Lisa', 'Moore', 'lisa.moore40@thebe.com', 'Account Executive')
+(40, 'Lisa', 'Moore', 'lisa.moore40@thebe.com', 'Account Executive'),
+(41, 'Betty', 'Gonzalez', 'betty.gonzalez41@thebe.com', 'Operations Lead'),
+(42, 'Sarah', 'Gonzalez', 'sarah.gonzalez42@thebe.com', 'HR Specialist'),
+(43, 'Karen', 'Johnson', 'karen.johnson43@thebe.com', 'HR Specialist'),
+(44, 'Jessica', 'Taylor', 'jessica.taylor44@thebe.com', 'Product Owner'),
+(45, 'Lisa', 'Taylor', 'lisa.taylor45@thebe.com', 'Product Owner'),
+(46, 'Jennifer', 'Wilson', 'jennifer.wilson46@thebe.com', 'Account Executive'),
+(47, 'Elizabeth', 'Johnson', 'elizabeth.johnson47@thebe.com', 'Operations Lead'),
+(48, 'Nancy', 'Williams', 'nancy.williams48@thebe.com', 'Tech Consultant'),
+(49, 'Richard', 'Jones', 'richard.jones49@thebe.com', 'Marketing Coordinator'),
+(50, 'Sarah', 'Anderson', 'sarah.anderson50@thebe.com', 'Data Analyst')
 ;
