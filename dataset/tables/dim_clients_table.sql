@@ -47,5 +47,15 @@ INSERT INTO Dim_Clients VALUES
 (37, 'Auckland Arch', 'Auckland', 'Auckland Region', 'New Zealand', 'Australia'),
 (38, 'Wellington Wave', 'Wellington', 'Wellington Region', 'New Zealand', 'Australia'),
 (39, 'Hobart Hill', 'Hobart', 'Tasmania', 'Australia', 'Australia'),
-(40, 'Darwin Dual', 'Darwin', 'Northern Territory', 'Australia', 'Australia')
+(40, 'Darwin Dual', 'Darwin', 'Northern Territory', 'Australia', 'Australia'),
+(41, 'Quito Quest', 'Quito', 'Pichincha', 'Ecuador', 'South America'),
+(42, 'Caracas Core', 'Caracas', 'Capital District', 'Venezuela', 'South America'),
+(43, 'Montevideo Main', 'Montevideo', 'Montevideo Department', 'Uruguay', 'South America'),
+(44, 'Asuncion Ally', 'Asunción', 'Distrito Capital', 'Paraguay', 'South America'),
+(45, 'La Paz Look', 'La Paz', 'La Paz Department', 'Bolivia', 'South America'),
+(46, 'Manaus Metals', 'Manaus', 'Amazonas', 'Brazil', 'South America'),
+(47, 'Medellin Media', 'Medellín', 'Antioquia', 'Colombia', 'South America'),
+(48, 'Curitiba Craft', 'Curitiba', 'Paraná', 'Brazil', 'South America'),
+(49, 'Rosario Rise', 'Rosario', 'Santa Fe', 'Argentina', 'South America'),
+(50, 'Guayaquil Gear', 'Guayaquil', 'Guayas', 'Ecuador', 'South America')
 ;
