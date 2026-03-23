@@ -38,4 +38,14 @@ INSERT INTO Dim_Clients VALUES
 (28, 'Hanoi History', 'Hanoi', 'Hanoi Municipality', 'Vietnam', 'Asia'),
 (29, 'Jakarta Jolt', 'Jakarta', 'Jakarta Special Region', 'Indonesia', 'Asia'),
 (30, 'Manila Move', 'Manila', 'Metro Manila', 'Philippines', 'Asia'),
+(31, 'Sydney Shore', 'Sydney', 'New South Wales', 'Australia', 'Australia'),
+(32, 'Melbourne Main', 'Melbourne', 'Victoria', 'Australia', 'Australia'),
+(33, 'Brisbane Blue', 'Brisbane', 'Queensland', 'Australia', 'Australia'),
+(34, 'Perth Peak', 'Perth', 'Western Australia', 'Australia', 'Australia'),
+(35, 'Adelaide Aim', 'Adelaide', 'South Australia', 'Australia', 'Australia'),
+(36, 'Canberra Cloud', 'Canberra', 'ACT', 'Australia', 'Australia'),
+(37, 'Auckland Arch', 'Auckland', 'Auckland Region', 'New Zealand', 'Australia'),
+(38, 'Wellington Wave', 'Wellington', 'Wellington Region', 'New Zealand', 'Australia'),
+(39, 'Hobart Hill', 'Hobart', 'Tasmania', 'Australia', 'Australia'),
+(40, 'Darwin Dual', 'Darwin', 'Northern Territory', 'Australia', 'Australia')
 ;
