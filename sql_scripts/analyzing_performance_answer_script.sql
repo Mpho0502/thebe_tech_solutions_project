@@ -115,8 +115,54 @@ GROUP BY e.Name, e.Surname, e.JobTitle
 ORDER BY Revenue DESC;
 
 --16. Which accounts generated the most sales transactions?  
+
+SELECT TOP 10 a.AccountsName,
+	COUNT(*) AS Sales_transactions
+FROM Thebe_Tech_Solutions_Sales_Fact AS f
+INNER JOIN Dim_Accounts AS a
+ON f.AccountsID = a.AccountsID
+GROUP BY a.AccountsName
+ORDER BY Sales_transactions DESC;
+
 --17. Show total expenses per year.
+
+SELECT d.Year,
+	SUM(f.Expenses) As Total_expenses
+FROM Thebe_Tech_Solutions_Sales_Fact AS f
+INNER JOIN Dim_Date AS d
+ON f.DateID = d.DateID
+GROUP BY d.Year;
+
 --18. Which month had the highest sales revenue in 2022?
+
+SELECT d.Month, 
+	SUM(f.TotalPrice) AS Revenue
+FROM Thebe_Tech_Solutions_Sales_Fact AS f
+INNER JOIN Dim_Date AS d
+ON f.DateID = d.DateID
+WHERE d.Year = 2022
+GROUP BY d.Month
+ORDER BY Revenue DESC;
+
 --19. List all products sold in 2024 with their total quantities.  
+
+SELECT p.ProductName,
+	 SUM(f.Quantity) AS Total_quantities
+FROM Thebe_Tech_Solutions_Sales_Fact AS f
+INNER JOIN Dim_Product AS p
+ON f.ProductID = p.ProductID
+INNER JOIN Dim_Date AS d
+ON f.DateID = d.DateID
+WHERE d.Year = 2024
+GROUP BY p.ProductName
+ORDER BY Total_quantities DESC;
+
 --20. Which continent contributed the most revenue overall?  
-   
+
+SELECT c.Continent,
+	SUM(f.TotalPrice) AS Revenue
+FROM Thebe_Tech_Solutions_Sales_Fact AS f
+INNER JOIN Dim_Clients AS c
+ON f.ClientsID = c.ClientsID
+GROUP BY c.Continent
+ORDER BY Revenue DESC;
