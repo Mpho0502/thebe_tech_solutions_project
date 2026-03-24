@@ -1,6 +1,9 @@
 --Analyzing Performance
 
 --1. Which employees are listed in the system?
+
+SELECT * FROM dbo.Dim_Emloyee
+
 --2. How many employees do we have in total? 
 --3. Which clients are registered in our database?  
 --4. How many clients are based in South Africa?
