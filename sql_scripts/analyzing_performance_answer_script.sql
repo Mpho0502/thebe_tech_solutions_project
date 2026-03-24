@@ -31,12 +31,41 @@ ORDER BY AccountsType;
 
 --6. How many products fall under the ‘Security’ category?  
 
-
+SELECT *
+FROM Dim_Product
+WHERE Category = 'Security';
 
 --7. Show all sales transactions recorded in the fact table.  
+
+SELECT * 
+FROM Thebe_Tech_Solutions_Sales_Fact;
+
 --8. How many sales transactions occurred in 2023?
+
+SELECT
+	COUNT(*) AS Sales_in_2023
+FROM Thebe_Tech_Solutions_Sales_Fact AS f 
+INNER JOIN Dim_Date AS d 
+ON f.DateID = d.DateID
+WHERE d.Year = 2023;
+
 --9. Which employees generated the highest number of sales transactions?  
+
+SELECT EmployeeID,
+	COUNT(*) AS Number_of_sales
+FROM Thebe_Tech_Solutions_Sales_Fact
+GROUP BY EmployeeID
+ORDER BY Number_of_sales;
+
 --10. What is the total revenue (TotalPrice) per year?
+
+SELECT d.Year, 
+	SUM(f.TotalProfits) as Profits
+FROM Thebe_Tech_Solutions_Sales_Fact AS f
+INNER JOIN Dim_Date AS d 
+ON f.DateID = d.DateID
+group by d.Year;
+
 --11. What are the total profits per quarter across all years?  
 --12. Which product categories generated the most revenue?  
 --13. Which clients contributed the highest profits?
