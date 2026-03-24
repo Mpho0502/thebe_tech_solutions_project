@@ -53,3 +53,5 @@ We design and implement robust technological frameworks tailored to specific ind
 III. Data-Driven Strategic Consulting
 Utilizing our proprietary internal data models (as seen in our Sales_Fact architecture), we don't just provide tools; we provide insights. We help clients analyze their technology spend, quantity of assets, and total ROI to make informed procurement decisions.
 
+Our Website:
+https://thebetechsolutions.my.canva.site/
