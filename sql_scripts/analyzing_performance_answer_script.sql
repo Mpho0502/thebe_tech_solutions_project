@@ -2,13 +2,37 @@
 
 --1. Which employees are listed in the system?
 
-SELECT * FROM dbo.Dim_Emloyee
+SELECT DISTINCT EmployeeID, 
+				Name,
+				Surname 
+FROM dbo.Dim_Emloyee;
 
 --2. How many employees do we have in total? 
---3. Which clients are registered in our database?  
+
+SELECT COUNT(*) AS Total_employees
+FROM Dim_Emloyee;
+
+--3. Which clients are registered in our database? 
+
+SELECT DISTINCT ClientName 
+FROM Dim_Clients;
+
 --4. How many clients are based in South Africa?
+
+SELECT * FROM Dim_Clients
+WHERE Country = 'South Africa';
+
 --5. List all accounts and their types.
+
+SELECT AccountsName,
+	   AccountsType
+FROM Dim_Accounts
+ORDER BY AccountsType;
+
 --6. How many products fall under the ‘Security’ category?  
+
+
+
 --7. Show all sales transactions recorded in the fact table.  
 --8. How many sales transactions occurred in 2023?
 --9. Which employees generated the highest number of sales transactions?  
